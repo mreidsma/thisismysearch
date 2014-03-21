@@ -27,6 +27,7 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/styles.min.css" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	<link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon.png" />
 </head>
 
 <body>
