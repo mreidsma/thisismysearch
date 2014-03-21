@@ -136,7 +136,7 @@
 	if(isset($_GET['q'])) { 
 		
 	echo '<div class="twitter-share span3 unit right lastUnit">
-			<a href="http://twitter.com/?status=I%20just%20searched%20for%20' . $q . '%3A%20http%3A%2F%2Fthisismysearch.com%2F%3Fq%3D%27' . $q . '%27%26s%3D' . $select . '%20%23thisismysearch" class="lib-button-small">Share this on Twitter</a><br />
+			<a href="http://twitter.com/?status=I%20just%20searched%20for%20' . $q . '%3A%20http%3A%2F%2Fthisismysearch.com%2F%3Fq%3D%27' . urlencode($q) . '%27%26s%3D' . $select . '%20%23thisismysearch" class="lib-button-small">Share this on Twitter</a><br />
 			<a href="index.php" class="new-search">Or, Try a New Search</a>
 			</div>';
 
