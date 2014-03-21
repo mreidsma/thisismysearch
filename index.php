@@ -129,7 +129,7 @@
 	
 	<div class="line" id="banner">
 		<div class="span3 unit left" id="logo">
-			<h1><a href="index.php">This is My Search</a></h1>
+			<h1><a href="/">This is My Search</a></h1>
 		</div>
 	
 <?php
@@ -137,7 +137,7 @@
 		
 	echo '<div class="twitter-share span3 unit right lastUnit">
 			<a href="http://twitter.com/?status=I%20just%20searched%20for%20%27' . $q . '%27%3A%20http%3A%2F%2Fthisismysearch.com%2F%3Fq%3D' . str_replace(" ", "%2B", $q)  . '%26s%3D' . $select . '%20%23thisismysearch" class="lib-button-small">Share this on Twitter</a><br />
-			<a href="index.php" class="new-search">Or, Try a New Search</a>
+			<a href="/" class="new-search">Or, Try a New Search</a>
 			</div>';
 
 } else {
