@@ -79,7 +79,7 @@
 		h1 { font-size: 1.85em;font-family: 'Ubuntu', sans-serif; text-transform:uppercase; margin-left: 1em; color: #fff; padding-top: .8125em;}
 		h1 a { text-decoration: none; color: #fff;}
 		.twitter-share { padding-top: 1em; text-align:right;}
-		form { margin: 1em auto !important;}
+		form { margin: 1em auto 1em !important;}
 		.lib-simple-form input[type="text"] { width: 72% !important; }
 		label { display:none;}
 		.new-search { color: #ddd; margin-top: .6em; display:inline-block;font-size: .8125em;}
