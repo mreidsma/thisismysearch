@@ -168,7 +168,7 @@
 			<h2 class="light">What's yours?</h2>
 		</div>
 		<div class="span3 unit left lastUnit">
-			<p style="text-align:center;"><a href="https://twitter.com/search?q=%23thisismysearch&amp;f=realtime" class="lib-button">Explore Some Favorites</a></p>
+			<p style="text-align:center;margin-top:.75em;"><a href="https://twitter.com/search?q=%23thisismysearch&amp;f=realtime" class="lib-button">Explore Some Favorites</a></p>
 		</div>
 	</div>
 	
