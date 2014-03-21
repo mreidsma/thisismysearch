@@ -10,6 +10,8 @@ $systems = array(
 				"http://catalogue.mcmaster.ca/catalogue/Search/Results?lookfor=",
 				"http://novacat.nova.edu/search/X?SEARCH=",
 				"http://wfu.summon.serialssolutions.com/search?s.q=",
-				"http://baruch.summon.serialssolutions.com/search?s.q="
+				"http://baruch.summon.serialssolutions.com/search?s.q=",
+				"http://www.torontopubliclibrary.ca/search.jsp?Ntt=",
+				"http://lcc.summon.serialssolutions.com/?#!/search?ho=t&q="
 			);
 			
