@@ -3,17 +3,18 @@
 	// include the file with all the search places
 	include('./systems.php');
 
-	if(isset($_GET['q'])) {
+	if(isset($_GET['q'])) { // If a search has been done...
 	
-		$q = $_GET['q'];
+		// Save the query in a variab;e
+		$q = $_GET['q']; 
 		
-		if(!isset($_GET['s'])) {
+		// And see if a particular system has been specified
+		if(!isset($_GET['s'])) { // No
 			// Pick a random number
 			$select = rand(0, count($systems)-1);
-		} else {
+		} else { // Yes
 			$select = $_GET['s'];
 		}
-	
 	}
 
 ?>
@@ -21,108 +22,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>This is My Search</title>
-	<style>
-	html, body, div, span, applet, object, iframe,
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-	a, abbr, acronym, address, big, cite, code,
-	del, dfn, em, img, ins, kbd, q, s, samp,
-	small, strike, strong, sub, sup, tt, var,
-	b, u, i, center,
-	dl, dt, dd, ol, ul, li,
-	fieldset, form, label, legend,
-	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed, 
-	figure, figcaption, footer, header, hgroup, 
-	menu, nav, output, ruby, section, summary,
-	time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
-	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, 
-	footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-	body {
-		line-height: 1;
-	}
-	ol, ul {
-		list-style: none;
-	}
-	blockquote, q {
-		quotes: none;
-	}
-	blockquote:before, blockquote:after,
-	q:before, q:after {
-		content: '';
-		content: none;
-	}
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
-	</style>
-	<link rel="stylesheet" type="text/css" href="http://gvsu.edu/cms3/assets/741ECAAE-BD54-A816-71DAF591D1D7955C/libui.css" />
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
 	
-	<style>
-		body { font-family: helvetica, verdana, arial, sans-serif;margin:0;padding:0; background-color: #f2f2f2;}
-		a {color: #00528D; }
-		#banner { background-color: #000; width: 100%;}
-		#banner #logo { padding: 0 .5em !important;}
-		h1 { font-size: 1.85em;font-family: 'Ubuntu', sans-serif; text-transform:uppercase; margin-left: 1em; color: #fff; padding-top: .8125em;}
-		h1 a { text-decoration: none; color: #fff;}
-		.twitter-share { padding-top: 1em; text-align:right;}
-		form { margin: 1em auto 1em !important;}
-		.lib-simple-form input[type="text"] { width: 72% !important; }
-		label { display:none;}
-		.new-search { color: #ddd; margin-top: .6em; display:inline-block;font-size: .8125em;}
-		#results { width: 100%; height: 600px; border: 0;}
-		h2 { font-size: 1.8em;}
-		h2, h3 { font-weight: bold; background-color: #f2f2f2;}
-		h3 { font-size: 1.6em; text-align: center; color: #00528D;}
-		h2.light { color: #00528D;}
-		h2.dark { color: #333;margin-bottom: .6125em;}
-		#teaser { margin: 6% auto;width: 94%; }
-		#more-info { width: 94%; margin: 0 auto;}
-		#more-info div.span3 { padding-top: 5.25em;}
-		#refresh { background: url(img/refresh.png) top center no-repeat;}
-		#plus {background: url(img/plus.png) top center no-repeat; }
-		#bubble {background: url(img/bubble.png) top center no-repeat; }
-		footer { width: 100%; background-color: #444; color: #ddd; padding: .6em 0; margin: auto; margin-top: 1em;text-align:center;font-size: .8125em;}
-		footer ul { list-style: none;}
-		footer a { color: #ddd;}
-		#banner div.left,
-		#teaser div.left { float: none;}
-		#banner h1 { text-align: center;}
-		#banner div.span2of3,
-		#teaser div.span2of3 { margin: 0 auto; }
-		#teaser div.span2of3 { width: 90%; }
-		#banner div.span3,
-		#teaser div.span3 { width: 100%; }
-		@media screen and (min-width: 43em) {
-			#teaser div.span2of3 { width: 70%; }
-			h2 { font-size: 2em;}
-		}
-		@media screen and (min-width: 62.55em) {
-			.lib-simple-form input[type="text"] { width: 80% !important;}
-			#banner #logo { padding: .5em !important;}
-			#banner h1 { text-align: left;}
-			#banner div.span3,
-			#teaser div.span3 { width: 32%; }
-			#banner div.left,
-			#teaser div.left { float: left;}
-			#banner div.span2of3,
-			#teaser div.span2of3 { width: 64%; }
-		}
-	</style>
-	
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 </head>
 
 <body>
@@ -193,22 +97,12 @@
 		
 	</div>
 
-
 <?php
 		
-
-	} else { // There was a search
+	} else { 
 		
-	// Let's pick one of the search systems
-		
-		echo '<iframe id="results" src="' . $systems[$select] . $q . '"></iframe>';
-		
-		
-		
-		
-?>
-
-<?php
+		// There was a search. Show the results.
+		echo '<iframe id="results" src="' . $systems[$select] . $q . '"></iframe>';	
 	}
 ?>
 	
