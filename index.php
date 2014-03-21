@@ -76,7 +76,7 @@
 		a {color: #00528D; }
 		#banner { background-color: #000; width: 100%;}
 		#banner #logo { padding: 0 .5em !important;}
-		h1 { font-size: 1.85em;font-family: 'Ubuntu', sans-serif; text-transform:uppercase; margin-left: 1em; color: #fff; padding-top: .6125em;}
+		h1 { font-size: 1.85em;font-family: 'Ubuntu', sans-serif; text-transform:uppercase; margin-left: 1em; color: #fff; padding-top: .8125em;}
 		h1 a { text-decoration: none; color: #fff;}
 		.twitter-share { padding-top: 1em; text-align:right;}
 		form { margin: 1em auto !important;}
@@ -168,7 +168,7 @@
 			<h2 class="light">What's yours?</h2>
 		</div>
 		<div class="span3 unit left lastUnit">
-			<p style="text-align:center;"><a href="https://twitter.com/search?q=%23thisismysearch&amp;f=realtime" class="lib-button">Explore More Favorites</a></p>
+			<p style="text-align:center;"><a href="https://twitter.com/search?q=%23thisismysearch&amp;f=realtime" class="lib-button">Explore Some Favorites</a></p>
 		</div>
 	</div>
 	
@@ -176,7 +176,7 @@
 		<div class="span3 unit left" id="bubble">
 			<h3>Get out of your bubble</h3>
 			
-			<p>Try your favorite search in someone else&#8217;s tool. We&#8217;ll pick a random library search tool for you.</p>
+			<p>Try your favorite search somewhere new. We&#8217;ll pick a random library search tool for you.</p>
 			
 		</div>
 		<div class="span3 unit left" id="refresh">
