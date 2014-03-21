@@ -163,7 +163,7 @@
 
 	<div class="line" id="teaser">
 		<div class="span2of3 unit left">
-			<h2 class="dark">Every librarian has their favorite search.</h2>
+			<h2 class="dark">Every librarian has a favorite search.</h2>
 	
 			<h2 class="light">What's yours?</h2>
 		</div>
@@ -182,7 +182,7 @@
 		<div class="span3 unit left" id="refresh">
 			<h3>Try and try again</h3>
 			
-			<p>Not happy with your results? Refresh the page and you&#8217;ll get another tool. Find the best one to share.</p>
+			<p>Not happy with the results? Refresh the page and you&#8217;ll get another tool. Find the best one to share.</p>
 			
 		</div>
 		<div class="span3 unit left" id="plus">
