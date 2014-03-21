@@ -214,7 +214,7 @@
 	
 	<footer>
 		<p>Built by <a href="http://twitter.com/TheRealArty">Cynthia Ng</a> and <a href="http://twitter.com/mreidsma">Matthew Reidsma</a> at the bar after <a href="http://libtechconf.com">Library Technology Conference 2014</a>.</p>
-		<p>Thought up with Chris Schommer, <a href="http://codyhanson.com">Cody Hanson</a>, <a href="http://twitter.com/johnwchapman">John Chapman</a>, and Ben Durrant. Apologies to <a href="http://thisismyjam.com">This is My Jam</a>.</p>
+		<p>Thought up with Chris Schommer, <a href="http://codyhanson.com">Cody Hanson</a>, <a href="http://twitter.com/johnwchapman">John Chapman</a>, and Ben Durrant. Apologies to <a href="http://thisismyjam.com">This is My Jam</a>. // <a href="http://github.com/mreidsma/thisismysearch">Code on Github</a>.</p>
 	</footer>
 
 </body>
