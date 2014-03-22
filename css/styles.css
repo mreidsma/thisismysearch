@@ -47,6 +47,10 @@ table {
   font-weight: 700;
   src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
+body,html { height: 100%;}
+#container{ min-height:100%;
+   position:relative;}
+#body { padding-bottom:2em; }
 .line{overflow:hidden;*overflow:visible;*zoom:1;clear:both;}
 .span1{width:99%;}
 .span2,.span3,.span4,.span2of3,.span3of4{width:99%;}
@@ -104,8 +108,10 @@ h2.dark { color: #333;margin-bottom: .6125em;}
 #refresh { background: url(../img/refresh.png) top center no-repeat;}
 #plus {background: url(../img/plus.png) top center no-repeat; }
 #bubble {background: url(../img/bubble.png) top center no-repeat; }
-footer { width: 100%; background-color: #444; color: #ddd; padding: .6em 0; margin: auto; margin-top: 1em;text-align:center;font-size: .8125em;}
-footer ul { list-style: none;}
+footer { width: 100%; background-color: #444; color: #ddd; padding: .6em 0; margin: auto; margin-top: 1em;text-align:center;font-size: .8125em;height: 2em;position: absolute;bottom: 0;}
+footer ul { list-style: none;padding-top: .5em;}
+footer ul li { float: left;margin-left: 1em;}
+footer ul li:last-child { float: right; margin-right: 1em;}
 footer a { color: #ddd;}
 #banner div.left,
 #teaser div.left { float: none;}

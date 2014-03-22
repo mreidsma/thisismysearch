@@ -25,13 +25,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>This is My Search</title>
 	
-	<link rel="stylesheet" type="text/css" href="css/styles.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png" />
 </head>
 
 <body>
-	
+
+<div id="container">	
 	<div class="line" id="banner">
 		<div class="span3 unit left" id="logo">
 			<h1><a href="/">This is My Search</a></h1>
@@ -61,7 +62,8 @@
 	<?php
 }
 
-	echo '</div>';
+	echo '</div>
+	<div id="body">';
 
 	if(!isset($_GET['q'])) { // No search yet
 ?>
@@ -106,11 +108,17 @@
 		echo '<iframe id="results" src="' . $systems[$select] . $q . '"></iframe>';	
 	}
 ?>
+
+	</div>
 	
 	<footer>
-		<p>Built by <a href="http://twitter.com/TheRealArty">Cynthia Ng</a> and <a href="http://twitter.com/mreidsma">Matthew Reidsma</a> at the bar after <a href="http://libtechconf.org">Library Technology Conference 2014</a>.</p>
-		<p>Thought up with Chris Schommer, <a href="http://codyhanson.com">Cody Hanson</a>, <a href="http://twitter.com/johnwchapman">John Chapman</a>, and Ben Durrant. Apologies to <a href="http://thisismyjam.com">This is My Jam</a>. // <a href="http://github.com/mreidsma/thisismysearch">Code on Github</a>.</p>
+		<ul>
+			<li><a href="https://github.com/mreidsma/thisismysearch#about">About</a></li>
+			<li><a href="http://github.com/mreidsma/thisismysearch">Github</a></li>
+			<li>Apologies to <a href="http://thisismyjam.com">This is My Jam</a></li>
+		</ul>
 	</footer>
+</div>
 
 </body>
 </html>
