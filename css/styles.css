@@ -121,6 +121,8 @@ footer a { color: #ddd;}
 #teaser div.span2of3 { width: 90%; }
 #banner div.span3,
 #teaser div.span3 { width: 100%; }
+#loading{position:absolute;z-index:999;margin:auto;left:0;right:0;margin-top: 10%;}
+#loading div {width:14em;height:14em;;text-align:center;vertical-align:middle;margin: 0 auto;}
 @media screen and (min-width: 450px) {
 	.span4{width:49%;padding:.5em 1% .5em 0;}	
 	.left{float:left;}

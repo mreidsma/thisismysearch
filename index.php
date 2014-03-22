@@ -105,7 +105,11 @@
 	} else { 
 		
 		// There was a search. Show the results.
-		echo '<iframe id="results" src="' . $systems[$select] . $q . '"></iframe>';	
+?>
+		<div id="loading"><div><img src="img/loading.gif" /></div></div>
+		<iframe id="results" src="<?php echo $systems[$select] . $q; ?>" onload="document.getElementById('loading').style.display='none'"></iframe>';
+		
+<?php	
 	}
 ?>
 
