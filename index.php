@@ -95,7 +95,7 @@
 		<div class="span3 unit left" id="plus">
 			<h3>Add your library's tools</h3>
 			
-			<p>Think you&#8217;re catalog or discovery service should be included? You can <a href="http://twitter.com/?status=%40ThisIsMySearch%20Please%20add%20my%20library%20to%20your%20silly%20website.%20Our%20URL%20is%3A">suggest we add it to our list</a>.</p>
+			<p>Think your catalog or discovery service should be included? You can <a href="http://twitter.com/?status=%40ThisIsMySearch%20Please%20add%20my%20library%20to%20your%20silly%20website.%20Our%20URL%20is%3A">suggest we add it to our list</a>.</p>
 		</div>
 		
 	</div>
