@@ -12,7 +12,7 @@ $systems = array(
 				"http://wfu.summon.serialssolutions.com/search?s.q=",
 				"http://baruch.summon.serialssolutions.com/search?s.q=",
 				"http://www.torontopubliclibrary.ca/search.jsp?Ntt=",
-				"http://primo.lib.umn.edu/primo_library/libweb/action/dlSearch.do?dym=true&highlight=true&institution=TWINCITIES&search_scope=mncat_discovery&vid=TWINCITIES&query=any,contains,"
+				"http://primo.lib.umn.edu/primo_library/libweb/action/dlSearch.do?dym=true&highlight=true&institution=TWINCITIES&search_scope=mncat_discovery&vid=TWINCITIES&query=any,contains,",
 				"http://library.villanova.edu/Find/Combined/Results?lookfor=",
 				"http://digital.library.villanova.edu/Search/Results?lookfor="
 				
