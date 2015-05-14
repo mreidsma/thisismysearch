@@ -15,7 +15,9 @@ $systems = array(
 				"http://primo.lib.umn.edu/primo_library/libweb/action/dlSearch.do?dym=true&highlight=true&institution=TWINCITIES&search_scope=mncat_discovery&vid=TWINCITIES&query=any,contains,",
 				"http://library.villanova.edu/Find/Combined/Results?lookfor=",
 				"http://digital.library.villanova.edu/Search/Results?lookfor=",
-                "http://iucat.iu.edu/?utf8=%E2%9C%93&search_field=all_fields&q="
+                "http://iucat.iu.edu/?utf8=%E2%9C%93&search_field=all_fields&q=",
+				"http://catalogue.library.carleton.ca/search/?searchtype=X&SORT=D&searcharg=",
+				"http://carletonu.summon.serialssolutions.com/#!/search?ho=t&q="
 				
 			);
 			
