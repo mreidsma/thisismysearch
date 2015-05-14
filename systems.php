@@ -1,7 +1,7 @@
 <?php
 
 $systems = array(
-				"http://gvsu.summon.serialssolutions.com//search/results?q=",
+				"http://gvsu.summon.serialssolutions.com/#!/search?ho=t&q=",
 				"http://library.catalog.gvsu.edu/search/?searchtype=X&searcharg=",
 				"http://twist.langara.bc.ca/search~S1/Y?SEARCH=",
 				"http://encore.langara.bc.ca/iii/encore/plus/C__S",
